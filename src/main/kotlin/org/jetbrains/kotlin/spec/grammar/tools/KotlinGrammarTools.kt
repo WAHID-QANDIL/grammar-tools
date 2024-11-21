@@ -2,7 +2,7 @@ package org.jetbrains.kotlin.spec.grammar.tools
 
 import org.jetbrains.kotlin.spec.grammar.tools.parsing.Parser
 
-class KotlinToken(
+data class KotlinToken(
     val type: String,
     val text: String,
     val channel: Int
